@@ -51,10 +51,9 @@ This will give you 12 rows (since more artists have produced 4 albums)
 Alternative, if we are not certain the name of the artist is unique:
 
 	select top 10 with ties Count(*) NrOfAlbums, Artist.Name
-    from Artist 
-	join Album on Artist.ArtistId=Album.ArtistId
+    from Artist join Album on Artist.ArtistId=Album.ArtistId
     group by Artist.ArtistId, Artist.Name
-	order by NrOfAlbums desc, Artist.Name
+	order by NrOfAlbums desc
 
 Alternative with a subquery
 
