@@ -97,7 +97,7 @@ Do the same with this script
 For example: 11ms
 
 	SET STATISTICS TIME ON
-		SELECT CampaignCode, COUNT(*) 
+		SELECT COUNT(*) 
 		FROM Orders
 		WHERE CampaignCode='ABC-123' OR CampaignCode='WER-456'
 	SET STATISTICS TIME OFF
