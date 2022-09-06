@@ -44,7 +44,7 @@ Create the following database with a Order table containing 100.000 rows
 	END
 
 	-- Create the table Order
-
+	
 	CREATE TABLE Orders(Id INT NOT NULL, CreatedDate DATETIME, Status TINYINT, CampaignCode VARCHAR(10), TotalAmount DECIMAL)
 
 	-- Fill the table with 100.000 rows
