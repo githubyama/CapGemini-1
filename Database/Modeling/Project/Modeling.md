@@ -11,7 +11,7 @@ We meet and share our ideas.
 To know what tables and fields to model it is useful to answer these questions:
 
 - How will the company make money?
-- Who will use the final app (e.g customer, administrator, accounting, CEO...)
+- Who will use the final app? (e.g customer, administrator, accounting, CEO...)
 - What questions do the users of app want to answer?
 
 E.g if you model a database for Voi the answer of the first question could be "By renting scooters to customers in mayor cities". 
@@ -39,7 +39,7 @@ Create a ER-diagram with:
 - Multiple **one-to-many** relationships
 - Multiple **many-to-many** relationships
 
-The ER-diagram must contain at least 8 entities.
+The ER-diagram must contain at least 6 entities.
 
 Model the database from the ER-diagram. 
 
