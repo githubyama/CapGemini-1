@@ -8,6 +8,8 @@ All the examples below will just need two or three tables each.
 
 Extra exercise: decide which column that should allow NULL
 
+(Chinook 01 and 02 is also good to look at again)
+
 ## Person - Passport
 
 A person has a name. 
