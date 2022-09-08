@@ -2,9 +2,15 @@
 
 ## Brainstorming
 
-Brainstorm ideas of companies to create a database for (15 minutes). Try to find examples of tables and fields that can be included. 
+Your group is going to create a database for a company.
 
-We meet and share our ideas.
+Pick one of the companies in **Ideas.md** or choose some another company.
+
+Then start to answer questions below the **Analyse** header
+
+(20 minutes)
+
+We meet in Classroom and share our ideas.
 
 ## Analyse
 
