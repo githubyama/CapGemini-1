@@ -130,9 +130,9 @@ Solution
 
 ## 3.6 (Index)
 
-Measure the time it takes to add 10.000 customers (you can add the same customer over and over again)
+Measure the time it takes to add 10.000 employees (you can add the same employee over and over again)
 
-Remove the inserted customers
+Remove the inserted employees
 
 Insert indexes on ALL columns (15 indexes)
 
@@ -140,7 +140,7 @@ Measure the time again and compare the result.
 
 When you measure, try five times and pick the median value.
 
-Extra: see if you get a different result if the inserted customers has random names, birthdate, country etc.
+Extra: see if you get a different result if the inserted employees have random names, birthdate, country etc.
 
 Solution
 
