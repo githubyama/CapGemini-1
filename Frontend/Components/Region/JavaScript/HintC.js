@@ -3,6 +3,7 @@
 
 const municipality = document.querySelector(".region .municipality")
 const county = document.querySelector(".region .county")
+
 const countyData = [
 
     { countyCode: "01", countyName: "Stockholm län", municipalities: [{ code: "14", name: "Upplands Väsby" }, { code: "15", name: "Vallentuna" }, { code: "17", name: "Österåker" }] },
@@ -28,19 +29,33 @@ function renderCounty() {
 
 function renderMunicipality() {
 
+    if (county.value == "") {
+        municipality.classList.add("hide")
+        return
+    }
+
     let html= 
         `<option value="">Välj kommun...</option>
-         <option value="05">Håbo</option>
-         <option value="19">Älvkarleby</option>
-         <option value="30">Knivsta</option>
         `
+
+    // Find the right county in "countyData" 
+    const selectedCounty =  countyData.find(x => x.countyCode == county.value)
+
+    for(let m of selectedCounty.municipalities) {
+        
+        const municipalityFullCode = selectedCounty.countyCode + m.code
+        
+        html += `<option value="${m.code}">${municipalityFullCode} ${m.name}</option>`
+
+    }
+
     municipality.classList.remove("hide")
     municipality.innerHTML = html
 }
 
 function countyChanged() {
 
-    console.log("country changed!")
+    console.log("country changed to " + county.value)
 
     renderMunicipality()
 }
@@ -48,5 +63,7 @@ function countyChanged() {
 function municipalityChanged() {
   
     console.log("municipality changed!")
+
+    /* todo: add code here */    
 
 }
