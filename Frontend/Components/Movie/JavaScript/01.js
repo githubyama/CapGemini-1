@@ -13,6 +13,10 @@ function leftStar() {
 
 function clickStar(number) {
     result.innerText = `You rated ${number} stars!`
+
+    // the same as:
+    // result.innerText = "You rated" +number+ " stars!"
+
     chosenStars = number
 }
 
@@ -24,9 +28,13 @@ function resetStars() {
 
 function lightAllStarsUpTo(number) {
 
+    // yellow
+    
     for (let i = 1; i <= number; i++) {
         allStars[i - 1].src = "star.png"
     }
+
+    // grey
 
     for (let i = number + 1; i <= 5; i++) {
         allStars[i - 1].src = "star-gray.png"
