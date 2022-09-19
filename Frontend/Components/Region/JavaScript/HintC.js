@@ -1,6 +1,6 @@
 
 // Current solution: 
-
+const result = document.querySelector(".region .result")
 const municipality = document.querySelector(".region .municipality")
 const county = document.querySelector(".region .county")
 
@@ -57,13 +57,22 @@ function countyChanged() {
 
     console.log("country changed to " + county.value)
 
+    result.classList.add("hide")
     renderMunicipality()
 }
 
 function municipalityChanged() {
   
+    if (municipality.value == ""){
+        result.classList.add("hide")
+        return
+    }
+
     console.log("municipality changed!")
 
-    /* todo: add code here */    
+    /* todo: add code here */
+    result.classList.remove("hide")
+
+    result.innerHTML = `Du har valt kommun med kod ${county.value}${municipality.value}`
 
 }
