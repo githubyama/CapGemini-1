@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bootstrap</title>
+</head>
+
+<body>
+
+    <h2 class="divider">Ett textfält med en tillhörande label. En knapp</h2>
+    <div class="form-group">
+        <label for="namn">Ditt namn</label>
+        <input type="text" class="form-control" id="namn">
+    </div>
+
+    <button type="submit" class="btn btn-success">Okey</button>
+
+    <h2 class="divider">Dropdown och en multi-select</h2>
+
+    <div class="form-group">
+        <label for="test1">Välj ett spel</label>
+        <select class="form-control" id="test1">
+            <option>Pandemic</option>
+            <option>Risk</option>
+            <option>Cluedo</option>
+            <option>Trivial Pursuit</option>
+            <option>Ticket to ride</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="test2">Välj flera spel</label>
+        <select multiple class="form-control" id="test2" size="5">
+            <option>Pandemic</option>
+            <option>Risk</option>
+            <option>Cluedo</option>
+            <option>Trivial Pursuit</option>
+            <option>Ticket to ride</option>
+        </select>
+    </div>
+
+    <h2 class="divider">En slider</h2>
+
+    <label for="formControlRange">En slider</label>
+    <input type="range" class="form-control-range" id="formControlRange">
+
+    <h2 class="divider">Checkboxar</h2>
+
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" disabled>
+        <label class="form-check-label" for="inlineCheckbox1">Äpple</label>
+    </div>
+
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+        <label class="form-check-label" for="inlineCheckbox2">Banan</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+        <label class="form-check-label" for="inlineCheckbox3">Päron</label>
+    </div>
+
+    <h2 class="divider">Radiobuttons</h2>
+
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">Äpple</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">Banan</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+        <label class="form-check-label" for="inlineRadio3">Päron</label>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
