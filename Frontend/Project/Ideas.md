@@ -44,6 +44,4 @@ Examples
 
 ![](img/password.png)
 
-![](img/avanza-kredit.png)
-
 ![](img/kredit-frågor.png)
