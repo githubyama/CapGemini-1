@@ -1,0 +1,4 @@
+/* My own styles may override Bootstraps style */
+.alert-secondary {
+    background-color: pink;
+}
