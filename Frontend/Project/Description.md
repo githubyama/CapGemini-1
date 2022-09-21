@@ -43,5 +43,6 @@ Ask your teacher if you get stuck!
 Present your project in 5 minutes:
 - Why did you choose to do this?
 - Demonstrates how your component works
+- What was challenging?
 - What have you learned?
 - Show one or two details from the code
