@@ -1,4 +1,11 @@
 
+/*
+Copy the HTML-code from the exercise
+
+Change "class" to "className"
+
+Note that React is more senitive about the HTML-code
+*/
 import './Email.css'
 function Email() {
 
